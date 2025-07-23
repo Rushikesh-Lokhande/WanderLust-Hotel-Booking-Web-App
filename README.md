@@ -1,6 +1,6 @@
-# 🌍 WanderLust – Hotel Booking Web App
+# 🌍 WanderLust – Travel Booking Web App
 
-**WanderLust** is a full-stack web application inspired by Airbnb, designed for hotel listing and booking. This project demonstrates CRUD operations, RESTful routing, and dynamic content rendering with a clean and responsive UI.
+**WanderLust** is a full-stack web application inspired by Airbnb, designed for travel listing and booking. This project demonstrates CRUD operations, RESTful routing, and dynamic content rendering with a clean and responsive UI.
 
 ---
 
