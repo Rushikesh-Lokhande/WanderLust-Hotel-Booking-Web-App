@@ -44,3 +44,38 @@ These features are planned and will be added in future updates:
 ---
 
 
+wanderlust/
+│
+├── app.js                      # Main application file
+├── package.json                # Project metadata and dependencies
+├── package-lock.json           # Dependency lock file
+│
+├── init/
+│   ├── data.js                 # Initial data for seeding
+│   └── index.js                # Entry for data initialization
+│
+├── models/
+│   └── listing.js              # Mongoose schema for hotel listings
+│
+├── public/
+│   └── css/
+│       └── style.css           # Custom styles
+│
+├── views/
+│   ├── includes/               # Reusable partials (header/footer)
+│   │   ├── footer.ejs
+│   │   └── navbar.ejs
+│   │
+│   ├── layouts/                # Layout boilerplate for consistent UI
+│   │   └── boilerplate.ejs
+│   │
+│   └── listings/               # Views for CRUD operations
+│       ├── index.ejs           # Homepage listing view
+│       ├── new.ejs             # Form to add new listing
+│       ├── show.ejs            # Detail page of a listing
+│       └── edit.ejs            # Form to edit existing listing
+│
+└── node_modules/               # Node.js dependencies (auto-generated)
+
+
+
